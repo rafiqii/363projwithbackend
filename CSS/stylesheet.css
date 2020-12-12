@@ -1,0 +1,382 @@
+body{
+    margin: 0;
+}
+
+
+header {
+    
+    display: flex;
+    justify-content: space-between;
+
+    background-image: url("../Pictures/headerBackground.jpg");
+}
+
+.loginPic {
+    width: 260px;
+    height: 80px;
+
+}
+
+.login {
+
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.login p {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color:blue;
+    width: 200px;
+}
+.login a{
+    text-decoration: none;
+}
+
+.logo {
+    border-radius: 5px 20px;
+    width: 250px;
+    height: 100px;
+    margin: 10px 0px 10px 10px;
+}
+
+.searchBar {
+    width: 60%;
+    height: 60px;
+    border-radius: 25px;
+
+    border: none;
+    font-size: 17px;
+}
+
+.searchBarDiv {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+}
+
+.searchButton {
+    height: 40px;
+    width: 80px;
+
+    text-align: center;
+    align-self: center;
+
+    border-radius: 7px;
+    background-color: rgb(55, 255, 162);
+    border: none;
+
+    margin-left:20px ;
+    
+}
+/* End of header CSS =-=-=-=-=-=-=-=-=- and start of main */
+
+
+main{
+    background-image: url("../Pictures/mainBackground.png");
+    width: 100%;
+    background-repeat: initial;
+    padding-bottom: 14%;
+    padding-top: 14%;
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+    background-position: bottom;
+    
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.outerMainDiv{
+    width: 100%;
+    
+    justify-content: center;
+    align-content: center;
+    display: flex;
+
+}
+.topHits{
+    height: 10px;
+    margin-top: -50px;
+    margin-right: -140px;
+    font-size: 40px;
+    color: lime;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial,
+     sans-serif;
+}
+.borderDiv{
+    border: 2px solid black;
+    border-radius: 10px 30px;
+
+    height: 500px;
+    width: 50%;
+
+    background-color: rgb(240, 237, 237);
+    margin: 0;
+    justify-self: center;
+    
+}
+.song{
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    display: flex;
+}
+.song p{
+    font-size: 20px;
+    margin-left: 10px;
+}
+.singer{
+    height: 100px;
+    width: 100px;
+}
+/* End of main CSS =-=-=-=-=-=-=-=-=-=-=-=-=-= start of footer */
+
+footer{
+    display: flex;
+    
+    justify-content: space-between;
+    align-content: center;
+    
+    background-image: url("../Pictures/footerBackground.jpg");
+
+    
+}
+.twitterLogo{
+    max-width: 100px;
+    height: 100px;
+
+    display: block;
+    margin: auto;
+    
+}
+footer div{
+    align-self: center;
+    justify-self: center;
+    width: 100%;
+}
+footer p{
+    color: rgb(180, 186, 192);
+
+    font-size: 25px;
+    text-align: center;
+    text-justify: center;
+    color: teal;
+}
+footer a{
+    text-decoration: none;
+}
+/* =-=-=-=-=-=-=-=-=-= Login Page */
+.outerLogin{
+    border: 2px solid black;
+    border-radius: 10px 20px;
+    width: 100%;
+    background-color: mintcream;
+    padding: 20px;
+    
+
+}
+.outerLogin p{
+    font-size: 15px;
+}
+.emailDiv{
+    display: flex;
+}
+.emailDiv input{
+    margin: 10px;
+
+    width: 100%;
+    height: 30px;
+
+    border-radius: 5px 10px;
+    border-width: 1.5px;
+}
+.emailDiv p{
+    font-size: 25px;
+    margin: 10px;
+
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+.passwordDiv{
+    display: flex;
+}
+.passwordDiv input{
+    margin: 10px;
+    width: 100%;
+    height: 30px;
+
+    border-radius: 5px 10px;
+    border-width: 1.5px;
+}
+.passwordDiv p{
+    font-size: 25px;
+    margin: 10px;
+
+    font-family: Comic Sans MS, Comic Sans, cursive;
+
+}
+.loginTXT{
+    font-size: 30px;
+    color: lime;
+    font-family: Apple Chancery, cursive; 
+    margin-bottom: 10px;  
+}
+
+.loginExtras p{
+    text-align: center;
+    font-size: 18px;
+    color: blue;
+    
+}
+.loginButton{
+    display: block;
+    margin: auto;
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    width: 70px;
+    height: 35px;
+    
+    border-radius: 5px 10px;
+    border-width: 1px;
+    
+    background-color: rgb(55, 255, 162);
+}
+/* =-=-=-=-=-=-=-=-=-=-= signup */
+.dobDiv p{
+    padding-right: 5px;
+    font-size: 25px;
+    margin: 10px;
+
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+.dobDiv input{
+    margin: 10px;
+    width: 100%;
+    height: 30px;
+
+    border-radius: 5px 10px;
+    border-width: 1.5px;
+    align-self: center;
+}
+.dobDiv{
+    display: flex;
+}
+/* =-=-=-=-=-=-=-=-= End of login/signup start of whoSlashWhat */
+.whoSlashWhatDiv{
+    display: block;
+    margin: auto;
+
+    border: 3px solid black;
+    border-radius: 15px 30px;
+    background-color: mintcream;
+    padding-right: 20px;
+
+}
+.whoSlashWhatDiv pre{
+    font-size: 25px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+
+}
+.whoSlashWhatDiv p{
+    text-align: center;
+    font-size: 30px;
+    font-family: Snell Roundhand, cursive;
+}
+.boldRiNixQi{
+    color: blueviolet;
+    font-size: 1.2em;
+}
+
+/*=-=-=-=-=-=-=-=-=-=- End of who/what start of artist page*/
+.outerArtistDiv{
+    width: 95%;
+}
+.topAristElements{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -70px;
+    margin-bottom: 10px;
+
+    width: 100%;
+}
+/* midelements */
+.midArtistElements{
+    display: flex;
+    justify-content: space-between;
+}
+.widthContainer{
+    width: 30%;
+}
+.albumsOuterDiv{
+    /* border: 2px solid black; */
+    background-color: mintcream;
+    border-radius: 15px 30px;
+
+    height: 400px;
+    width: 100%;
+    padding: 20px;
+}
+.albumsTXT{
+    font-size: 30px;
+    color: lime;
+    font-family: Apple Chancery, cursive; 
+    margin-bottom: 10px; 
+}
+.albumInnerDiv{ 
+    display: flex;
+}
+.albumInnerDiv p{
+    font-size: 20px;
+    margin: 10px;
+
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+.albumInnerDiv img{
+    border-radius: 50%;
+
+    height: 75px;
+    width: 75px;
+}
+.singerInfoDiv{
+    display: flex;
+}
+.singerInfoDiv img{
+    height: 150px;
+    width: 150px;
+
+    border-radius: 50%;
+}
+.singerInfoDiv p{
+    font-size: 30px;
+    margin-left: 10px;
+    color: lime;
+    
+}
+.followersAndFollowing p{
+    font-size: 25px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    color: lime;
+}
+.songTitle{
+    text-align: center;
+    text-justify: center;
+    font-size: 24px;
+    margin-bottom: -10px;
+}
+#audioBar{
+    width: 400px;
+    height: 50px;
+    border-radius: 0%;
+
+    margin-left: 5px;
+    margin-top: 15px;
+}
